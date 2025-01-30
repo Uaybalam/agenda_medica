@@ -1,0 +1,21 @@
+WebTicket
+Status
+Specialty
+SpecialistAppDate
+Services Requested
+Requested Provider
+Referral ID
+Refering Provider
+ReasonForReferral
+PtNotificationDate
+PT_ID
+MV_ID
+FupOnSpecialistAppDate
+Diag
+DateSentToIPA
+DateRequested
+DateRecvdFromIPA
+D_Code
+Comments
+c_CompleteReferral
+Acuity

@@ -1,0 +1,4 @@
+ERROR - 2024-03-02 10:50:18 --> 404 Page Not Found: None/index requestUrl[/patient/chart/%7B%7B%20default.document.urlImage%20%7D%7D]
+ERROR - 2024-03-02 10:50:18 --> 404 Page Not Found: None/index requestUrl[/patient/chart/%7B%7B%20default.document.urlImage%20%7D%7D]
+ERROR - 2024-03-02 10:50:33 --> 404 Page Not Found: None/index requestUrl[/patient/chart/%7B%7B%20default.document.urlImage%20%7D%7D]
+ERROR - 2024-03-02 10:50:33 --> 404 Page Not Found: None/index requestUrl[/patient/chart/%7B%7B%20default.document.urlImage%20%7D%7D]

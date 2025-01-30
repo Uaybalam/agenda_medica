@@ -1,0 +1,15 @@
+{"settings_results":[
+	{
+		"type":"int",
+		"constraint":4,
+		"unsigned":true,
+		"auto_increment":true,
+		"primary":true,
+		"name":"id"
+	},
+	{
+		"name":"title",
+		"type":"varchar(75)",
+		"default":""
+	}
+]}

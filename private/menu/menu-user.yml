@@ -1,0 +1,77 @@
+############################################################
+# @attr nodes 	 	 		array( $nodes )
+# @attr name	 	 			string, 'My node'
+# @attr icon     	 		string, 'fa'
+# @attr url		 	 			string, '#'
+# @attr access_types  '' => ALL users
+# @attr class 	 	 		string, null
+# @attr preseparator 	boolean, true
+############################################################
+nodes:
+	-
+		name: 'Citas'
+		icon: 'fa fa-book'
+		url: '/appointment/book'
+		access_types: ''
+		route: Appointment_Controller/book
+		preseparator: true
+	#- 
+	#	name: Create appointment
+	#	icon: 'fa fa-calendar-plus-o'
+	#	url: '/appointment/create'
+	#	access_types: ''
+	#	route: Appointment_Controller/create
+	#	function: X
+	- 
+		name: 'Pacientes'
+		icon: 'fa fa-users'
+		url: '/patient/'
+		route: Patient_Controller/index
+		access_types: ''
+	- 
+		name: 'Facturación'
+		icon: 'fa fa-usd'
+		url: '/billing/'
+		route: Billing_Controller/index
+		access_types: 'billing,manager'
+	-
+		name: 'Consultas'
+		icon: 'fa fa-file-text-o'
+		url: '/encounter-list/'
+		access_types: 'admin,manager,billing'
+		route: Encounter_List_Controller/index
+		preseparator: true
+	-	
+		name: 'Derivaciones'
+		icon: 'fa fa-user-md'
+		url: '/encounter/referrals/'
+		access_types: ''
+		route: Encounter_Referrals_Controller/index
+	-
+		name: 'Resultados'
+		icon: 'fa fa-flask'
+		url: '/pending/results/'
+		access_types: 'nurse,secretary,manager'
+		route: Pending_Results_Controller/index
+		badge_function: 'get_pending_results_waiting'
+	-
+		name: 'Revisión de documentos'
+		icon: 'fa fa-file'
+		url: '/pending/documents'
+		access_types: 'medic,manager'
+		route: Pending_Documents_Controller/index
+		badge_function: 'get_pending_results_check'
+	-	
+		name: 'Contacto con patiente'
+		icon: 'fa fa-phone'
+		url: '/pending/contact'
+		access_types: ''
+		route: Pending_Contact_Controller/index
+		badge_function: 'get_pending_contacts'
+	-	
+		name: 'Respuestas a advertencias'
+		icon: 'fa fa-commenting-o'
+		url: '/pending/warnings'
+		access_types: ''
+		route: Pending_Warnings_Controller/index
+		badge_function: 'get_pending_warnings'

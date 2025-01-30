@@ -1,0 +1,6 @@
+ERROR - 2024-03-08 08:41:52 --> Severity: Warning --> Undefined array key "redirect" /var/www/html/app/views/user/view.profile.php 2 requestUrl[/user/profile]
+ERROR - 2024-03-08 14:18:48 --> Severity: error --> Exception: Call to undefined function _decode() /var/www/html/app/controllers/API_Request_Controller.php 12 requestUrl[/setAppointment]
+ERROR - 2024-03-08 14:26:40 --> Severity: error --> Exception: Call to undefined function ccccccccc_encode() /var/www/html/app/controllers/API_Request_Controller.php 36 requestUrl[/setAppointment]
+ERROR - 2024-03-08 16:33:31 --> Severity: 8192 --> strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated /var/www/html/app/controllers/API_Request_Controller.php 35 requestUrl[/setAppointment]
+ERROR - 2024-03-08 16:33:31 --> Severity: 8192 --> strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated /var/www/html/app/controllers/API_Request_Controller.php 36 requestUrl[/setAppointment]
+ERROR - 2024-03-08 16:33:31 --> Severity: 8192 --> strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated /var/www/html/app/controllers/API_Request_Controller.php 37 requestUrl[/setAppointment]

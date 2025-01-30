@@ -1,0 +1,4 @@
+ERROR - 2024-03-13 11:43:37 --> Severity: Warning --> Undefined property: stdClass::$user_signed /var/www/html/app/libraries/print/PDF_Prescription.php 80 requestUrl[/encounter/pdf/4/prescription]
+ERROR - 2024-03-13 11:43:37 --> Severity: Warning --> Undefined property: stdClass::$user_signed /var/www/html/app/libraries/print/PDF_Prescription.php 80 requestUrl[/encounter/pdf/4/prescription]
+ERROR - 2024-03-13 11:43:37 --> Severity: error --> Exception: FPDF error: Some data has already been output, can't send PDF file /var/www/html/app/libraries/print/pdf/FPDF.php 267 requestUrl[/encounter/pdf/4/prescription]
+ERROR - 2024-03-13 13:56:26 --> Severity: error --> Exception: Call to undefined function explore() /var/www/html/app/controllers/Encounter/Encounter_Controller.php 106 requestUrl[/encounter/pdf/3/prescription]

@@ -1,0 +1,242 @@
+VisDate6
+VisDate5
+VisDate4
+VisDate3
+VisDate2
+VisDate1
+visDate Copy9
+visDate Copy8
+visDate Copy7
+visDate Copy6
+visDate Copy5
+visDate Copy4
+visDate Copy3
+visDate Copy26
+visDate Copy25
+visDate Copy24
+visDate Copy23
+visDate Copy22
+visDate Copy21
+visDate Copy20
+visDate Copy2
+visDate Copy19
+visDate Copy18
+visDate Copy17
+visDate Copy16
+visDate Copy15
+visDate Copy14
+visDate Copy13
+visDate Copy12
+visDate Copy11
+visDate Copy10
+visDate Copy
+visDate
+Varicella2
+Varicella1
+VaccineName6
+VaccineName5
+VaccineName4
+VaccineName3
+VaccineName2
+VaccineName1
+Site6
+Site5
+Site4
+Site3
+Site2
+Site1
+site Copy9
+site Copy8
+site Copy7
+site Copy6
+site Copy5
+site Copy4
+site Copy3
+site Copy26
+site Copy25
+site Copy24
+site Copy23
+site Copy22
+site Copy21
+site Copy20
+site Copy2
+site Copy19
+site Copy18
+site Copy17
+site Copy16
+site Copy15
+site Copy14
+site Copy13
+site Copy12
+site Copy11
+site Copy10
+site Copy
+site
+PT_ID
+PneumoConj4sub
+PneumoConj4
+PneumoConj3sub
+PneumoConj3
+PneumoConj2sub
+PneumoConj2
+PneumoConj1sub
+PneumoConj1
+MMR2
+MMR1
+MLotNum Copy9
+MLotNum Copy8
+MLotNum Copy7
+MLotNum Copy6
+MLotNum Copy5
+MLotNum Copy4
+MLotNum Copy3
+MLotNum Copy26
+MLotNum Copy25
+MLotNum Copy24
+MLotNum Copy23
+MLotNum Copy22
+MLotNum Copy21
+MLotNum Copy20
+MLotNum Copy2
+MLotNum Copy19
+MLotNum Copy18
+MLotNum Copy17
+MLotNum Copy16
+MLotNum Copy15
+MLotNum Copy14
+MLotNum Copy13
+MLotNum Copy12
+MLotNum Copy11
+MLotNum Copy10
+MLotNum Copy
+MLotNum
+Meningococcal
+LotNumber6
+LotNumber5
+LotNumber4
+LotNumber3
+LotNumber2
+LotNumber1
+IPV4
+IPV3
+IPV2
+IPV1
+HIB4
+HIB3
+HIB2
+HIB1
+HepB3
+HepB2
+HepB1
+HepA2
+HepA1
+DTap6sub
+DTap5sub
+DTap5
+DTap4sub
+DTap4
+DTap3sub
+DTap3
+DTap2sub
+DTap2
+DTap1sub
+DTap1
+DateGiven6
+DateGiven5
+DateGiven4
+DateGiven3
+DateGiven2
+DateGiven1
+AdministeredOutside9
+AdministeredOutside8
+AdministeredOutside7
+AdministeredOutside6
+AdministeredOutside5
+AdministeredOutside4
+AdministeredOutside33
+AdministeredOutside32
+AdministeredOutside31
+AdministeredOutside30
+AdministeredOutside3
+AdministeredOutside29
+AdministeredOutside28
+AdministeredOutside27
+AdministeredOutside26
+AdministeredOutside25
+AdministeredOutside24
+AdministeredOutside23
+AdministeredOutside22
+AdministeredOutside21
+AdministeredOutside20
+AdministeredOutside2
+AdministeredOutside19
+AdministeredOutside18
+AdministeredOutside17
+AdministeredOutside16
+AdministeredOutside15
+AdministeredOutside14
+AdministeredOutside13
+AdministeredOutside12
+AdministeredOutside11
+AdministeredOutside10
+AdministeredOutside
+AdministeredBy6
+AdministeredBy5
+AdministeredBy4
+AdministeredBy3
+AdministeredBy2
+AdministeredBy1
+Administered by Copy9
+Administered by Copy8
+Administered by Copy7
+Administered by Copy6
+Administered by Copy5
+Administered by Copy4
+Administered by Copy3
+Administered by Copy26
+Administered by Copy25
+Administered by Copy24
+Administered by Copy23
+Administered by Copy22
+Administered by Copy21
+Administered by Copy20
+Administered by Copy2
+Administered by Copy19
+Administered by Copy18
+Administered by Copy17
+Administered by Copy16
+Administered by Copy15
+Administered by Copy14
+Administered by Copy13
+Administered by Copy12
+Administered by Copy11
+Administered by Copy10
+Administered by Copy
+Administered by
+Administer Copy9
+Administer Copy8
+Administer Copy7
+Administer Copy6
+Administer Copy5
+Administer Copy4
+Administer Copy3
+Administer Copy26
+Administer Copy25
+Administer Copy24
+Administer Copy23
+Administer Copy22
+Administer Copy21
+Administer Copy20
+Administer Copy2
+Administer Copy19
+Administer Copy18
+Administer Copy17
+Administer Copy16
+Administer Copy15
+Administer Copy14
+Administer Copy13
+Administer Copy12
+Administer Copy11
+Administer Copy10
+Administer Copy
+Administer

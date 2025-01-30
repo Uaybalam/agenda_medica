@@ -1,0 +1,1 @@
+{"settings_insurance":[{"type":"int","constraint":11,"unsigned":true,"auto_increment":true,"primary":true,"name":"id"},{"type":"varchar(100)","default":"","name":"title"},{"type":"smallint(1)","default":0,"name":"status"}]}

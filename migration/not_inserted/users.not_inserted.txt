@@ -1,0 +1,8 @@
+ROW [6] user in DataBase [rafaelromero]
+ROW [11] user in DataBase [gn]
+ROW [13] user in DataBase [carlos]
+ROW [28] loginName is repeated [ligia]
+ROW [30] user in DataBase [noemil93]
+ROW [43] user in DataBase [jleon1]
+ROW [45] user in DataBase [mgonzalez]
+ROW [47] user in DataBase [adelgado]

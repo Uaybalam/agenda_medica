@@ -1,0 +1,58 @@
+{"patient":[
+	{"type":"smallint(1)","default":0,"name":"insurance_primary_status"},
+	{"type":"smallint(1)","default":0,"name":"insurance_secondary_status"},
+	{"type":"varchar(120)","default":"","name":"insurance_secondary_plan_name"},
+	{"type":"varchar(75)","default":"","name":"insurance_secondary_identify"},
+	{"type":"varchar(250)","default":"","name":"insurance_secondary_notes"},
+	{"type":"varchar(120)","default":"","name":"insurance_primary_plan_name"},
+	{"type":"varchar(75)","default":"","name":"insurance_primary_identify"},
+	{"type":"varchar(250)","default":"","name":"insurance_primary_notes"},
+	{
+	"type":"varchar(100)","default":"","name":"membership_name"},
+	{"type":"char(10)","default":"","name":"membership_date"},
+	{"type":"varchar(100)","default":"","name":"membership_type"},
+	{"type":"text","default":"","name":"membership_notes"},
+	
+	{"type":"varchar(100)","default":"","name":"responsible_name"},
+	{"type":"varchar(100)","default":"","name":"responsible_middle_name"},
+	{"type":"varchar(100)","default":"","name":"responsible_last_name"},
+	{"type":"enum('','Male','Female')","default":"","name":"responsible_gender"},
+	{"type":"varchar(100)","default":"","name":"responsible_phone"},
+	{"type":"varchar(100)","default":"","name":"responsible_phone_alt"},
+	{"type":"varchar(120)","default":"","name":"responsible_relationship"},
+	{"type":"varchar(250)","default":"","name":"responsible_address"},
+	{"type":"varchar(150)","default":"","name":"responsible_address_city"},
+	{"type":"varchar(75)","default":"","name":"responsible_address_state"},
+	{"type":"char(20)","default":"","name":"responsible_address_zipcode"},
+	{"type":"char(3)","default":"No","name":"responsible_self"},
+
+	{"type":"varchar(100)","default":"","name":"emergency_name"},
+	{"type":"varchar(100)","default":"","name":"emergency_middle_name"},
+	{"type":"varchar(100)","default":"","name":"emergency_last_name"},
+	{"type":"enum('','Male','Female')","default":"","name":"emergency_gender"},
+	{"type":"varchar(100)","default":"","name":"emergency_phone"},
+	{"type":"varchar(100)","default":"","name":"emergency_phone_alt"},
+	{"type":"varchar(250)","default":"","name":"emergency_address"},
+	{"type":"varchar(150)","default":"","name":"emergency_address_city"},
+	{"type":"varchar(75)","default":"","name":"emergency_address_state"},
+	{"type":"char(20)","default":"","name":"emergency_address_zipcode"},
+	{"type":"varchar(120)","default":"","name":"emergency_relationship"},
+	
+	{	"name":"advanced_directive_offerded",
+		"type":"enum('Yes','No')",
+		"default":"No"
+	},
+	{	"name":"open_balance",
+		"type":"decimal(10,2)",
+		"default":0.00
+	},
+	{	"name":"discount_type",
+		"type":"varchar(75)",
+		"default":""
+	},
+	
+	{"type":"varchar(800)","default":"","name":"prevention_allergies","default":""},
+	{"type":"varchar(250)","default":"","name":"prevention_alcohol","default":""},
+	{"type":"varchar(250)","default":"","name":"prevention_drugs","default":""},
+	{"type":"varchar(250)","default":"","name":"prevention_tobacco","default":""}
+]}

@@ -1,0 +1,61 @@
+{"billing":[
+		{
+			"name":"date_current_illness",
+			"default":"",
+			"type":"char(10)"
+		},{
+			"name":"date_current_illness_other",
+			"default":"",
+			"type":"char(10)"
+		},{
+			"name":"date_patient_work_from",
+			"default":"",
+			"type":"char(10)"
+		},{
+			"name":"date_patient_work_to",
+			"default":"",
+			"type":"char(10)"
+		},{
+			"name":"name_referring",
+			"default":"",
+			"type":"varchar(100)"
+		},{
+			"name":"date_hospital_from",
+			"default":"",
+			"type":"char(10)"
+		},{
+			"name":"date_hospital_to",
+			"default":"",
+			"type":"char(10)"
+		},{
+			"name":"aditional_claim",
+			"default":"",
+			"type":"varchar(100)"
+		},{
+			"name":"outside_lab",
+			"type":"enum(\"Yes\",\"No\")",
+			"default": "No"
+		},{
+			"name":"outside_lab_fee",
+			"type":"numeric(10,2)",
+			"default": 0.0
+		},{
+			"name":"print",
+			"type":"smallint(1)",
+			"default":0
+		},{
+			"name":"type_provider",
+			"type":"smallint(1)",
+			"default":1
+		},{
+			"name": "print_date",
+			"type": "datetime",
+			"default": null,
+			"null": true
+		},{
+			"name": "print_user_nickname",
+			"type": "varchar(75)",
+			"default": ""
+		}
+	]
+}

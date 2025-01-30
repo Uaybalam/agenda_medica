@@ -1,0 +1,2 @@
+ERROR - 2024-04-17 17:36:55 --> 404 Page Not Found: None/index requestUrl[/encounter/results//open-preview/?random=]
+ERROR - 2024-04-17 17:41:32 --> Severity: Warning --> Undefined array key "User_DB" /var/www/html/app/models/Patient_Model.php 233 requestUrl[/setAppointment]

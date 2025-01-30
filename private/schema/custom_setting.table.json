@@ -1,0 +1,24 @@
+{"custom_setting":[{
+		"type":"bigint(10)",
+		"unsigned":true,
+		"auto_increment":true,
+		"primary":true,
+		"name":"id"
+	},{
+		"type":"varchar(500)",
+		"default":"",
+		"name":"name"
+	},{
+		"type":"varchar(500)",
+		"default":"",
+		"name":"fullname"
+	},{
+		"type":"varchar(75)",
+		"default":"",
+		"name":"type"
+	},{
+		"type":"varchar(25)",
+		"default":"",
+		"name":"instance_id"
+	}
+]}

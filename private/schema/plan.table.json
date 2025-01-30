@@ -1,0 +1,22 @@
+{"plan":[{
+		"type":"int",
+		"unsigned":true,
+		"auto_increment":true,
+		"primary":true,
+		"name":"id"
+	},{
+		"type":"varchar(100)",
+		"default":"",
+		"name":"name"
+	},{
+		"type":"datetime", 
+		"name":"create_at"
+	},{
+		"type":"varchar(10)", 
+		"name":"finish_date"
+	},{
+		"type":"varchar(25)",
+		"default":"",
+		"name":"instance_id"
+	}
+]}

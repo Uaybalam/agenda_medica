@@ -1,0 +1,15 @@
+{"encounter_addendum":[{
+		"type":"int",
+		"constraint":11,
+		"unsigned":true,
+		"auto_increment":true,
+		"primary":true,
+		"name":"id"
+	},
+	{"type":"int","constraint":8,"_createindex":true,"default":0,"name":"encounter_id"},
+	{"type":"int","constraint":11,"_createindex":true,"default":0,"name":"patient_id"},
+	{"type":"int","constraint":11,"_createindex":true,"default":0,"name":"user_id"},
+	{"type":"text","null":false,"name":"notes"},
+	{"type":"smallint(1)","null":false,"name":"is_request","default":0},
+	{"type":"datetime","default":"0000-00-00","name":"create_at"}
+]}

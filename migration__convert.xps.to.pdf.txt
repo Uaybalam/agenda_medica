@@ -1,0 +1,8 @@
+
+for file in *.xps; do
+	newRoute="${file/xps/pdf}";			#replace xps per pdf
+	xpstopdf "${file}" "${newRoute}" 	#convert to pdf
+	rm "${file}" 						#remove old file xps
+	echo "Converted :: $newRoute"		#output text
+done
+

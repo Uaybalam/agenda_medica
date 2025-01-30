@@ -1,0 +1,65 @@
+{
+  "IcoMoonType": "selection",
+  "icons": [
+    {
+      "icon": {
+        "paths": [
+          "M576 256l-128-128h-448v832h1024v-704h-448zM704 704h-128v128h-128v-128h-128v-128h128v-128h128v128h128v128z"
+        ],
+        "tags": [
+          "folder-plus",
+          "directory",
+          "folder-add"
+        ],
+        "defaultCode": 59697,
+        "grid": 16,
+        "attrs": []
+      },
+      "attrs": [],
+      "properties": {
+        "ligatures": "folder-plus, directory3",
+        "name": "folder-plus",
+        "order": 190,
+        "id": 50,
+        "prevSize": 32,
+        "code": 59697
+      },
+      "setIdx": 4,
+      "setId": 1,
+      "iconIdx": 49
+    }
+  ],
+  "height": 1024,
+  "metadata": {
+    "name": "icomoon"
+  },
+  "preferences": {
+    "showGlyphs": true,
+    "showQuickUse": true,
+    "showQuickUse2": true,
+    "showSVGs": false,
+    "fontPref": {
+      "prefix": "icon-",
+      "metadata": {
+        "fontFamily": "icomoon"
+      },
+      "metrics": {
+        "emSize": 1024,
+        "baseline": 6.25,
+        "whitespace": 50
+      },
+      "embed": false
+    },
+    "imagePref": {
+      "prefix": "icon-",
+      "png": true,
+      "useClassSelector": true,
+      "color": 0,
+      "bgColor": 16777215,
+      "classSelector": ".icon"
+    },
+    "historySize": 50,
+    "showCodes": true,
+    "gridSize": 16
+  }
+}

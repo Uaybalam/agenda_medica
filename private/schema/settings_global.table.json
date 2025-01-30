@@ -1,0 +1,23 @@
+{"settings_global":[{
+		"type":"int",
+		"unsigned":true,
+		"auto_increment":true,
+		"primary":true,
+		"name":"id"
+	},{
+		"type":"varchar(100)",
+		"default":"",
+		"name":"title"
+	},{
+		"type":"text",
+		"name":"value"
+	},{
+		"type":"smallint(1)",
+		"default":0,
+		"name":"initial"
+	},{
+		"type":"varchar(512)",
+		"default":"",
+		"name":"helper"
+	}
+]}

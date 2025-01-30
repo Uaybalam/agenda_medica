@@ -1,0 +1,27 @@
+#!/usr/bin/env php
+<?php
+/**
+* 
+*/
+include_once 'app/libraries/core/DynamicRoutes.php';
+
+
+$DynamicRoutes = new DynamicRoutes([
+	'BASEPATH' =>  __DIR__.'/system',
+	'APPPATH'  => realpath('app'),
+	'format'   => 'serialize'
+]);
+
+$help = isset($_SERVER['argv'][1]) ? $_SERVER['argv'][1] : false;
+
+if(in_array($help, ["h","help"]))
+{
+	$DynamicRoutes->help();
+}
+else
+{
+	$DynamicRoutes->extendsFile( BASEPATH . '/core/Controller.php')
+		->extendsFile( APPPATH . '/core/APP_Controller.php');
+
+	$DynamicRoutes->compile(true);
+}

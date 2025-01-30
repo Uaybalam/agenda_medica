@@ -1,0 +1,1 @@
+ERROR - 2024-05-15 20:59:30 --> Severity: Warning --> Undefined array key "User_DB" /var/www/html/app/models/Patient_Model.php 233 requestUrl[/setAppointment]

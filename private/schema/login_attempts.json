@@ -1,0 +1,29 @@
+{"login_attempts":[
+	{
+		"type":"int",
+		"constraint":11,
+		"unsigned":true,
+		"auto_increment":true,
+		"primary":true,
+		"name":"id"
+	},{
+		"type":"varchar",
+		"constraint":256,
+		"default":"",
+		"name":"user"
+	},{
+		"type":"varchar",
+		"constraint":256,
+		"default":"",
+		"name":"ip"
+	},{
+		"type":"datetime",
+		"null":true,
+		"default":null,
+		"name":"updated_at"
+	},{
+		"type":"int(4)",
+		"default":0,
+		"name":"attempts"
+	}
+]}

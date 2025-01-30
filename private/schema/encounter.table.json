@@ -1,0 +1,20 @@
+{"encounter":[
+	{"type":"int","constraint":11,"unsigned":true,"auto_increment":true,"primary":true,"name":"id"},
+	{"type":"int","constraint":11,"_createindex":true,"default":0,"name":"patient_id"},
+	{"type":"int","constraint":11,"_createindex":true,"default":0,"name":"create_by"},
+	{"type":"int","constraint":11,"_createindex":true,"default":0,"name":"appointment_id"},
+	{"type":"int","constraint":11,"_createindex":true,"default":0,"name":"user_id"},
+	{"type":"varchar(250)","default":"","name":"user_signature"},
+	{"type":"text","null":true,"name":"chief_complaint"},
+	{"type":"text","null":true,"name":"current_medications"},
+	{"type":"smallint(1)","default":1,"name":"pain"},
+	{"type":"smallint(1)","default":0,"name":"has_insurance"},
+	{"type":"varchar(120)","default":"","null":false,"name":"insurance_title"},
+	{"type":"varchar(75)","default":"","null":false,"name":"insurance_number"},
+	{"type":"smallint","constraint":1,"default":1,"name":"status"},
+	{"type":"datetime","null":false,"default":"0000-00-00","name":"create_at"},
+	{"type":"datetime","null":false,"default":"0000-00-00","name":"update_at"},
+	{"type":"datetime","null":false,"default":"0000-00-00","name":"signed_at"},
+	{"type":"BIGINT","null":true,"default":"0","name":"signed_time_at"},
+	{"type":"smallint(1)","default":0,"name":"first_open"}]
+}

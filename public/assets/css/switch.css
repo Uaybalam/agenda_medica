@@ -1,0 +1,91 @@
+label.switch{		
+	cursor             : pointer;	
+	position           : relative;
+	display            : inline-block;
+	direction          : ltr; 
+	overflow           : hidden;
+	width              : 100%;
+	border-radius      : 4px;
+	border             : 1px solid transparent;
+	-webkit-box-shadow : 0px 0px 5px 2px rgba(0,0,0,0.10);
+	-moz-box-shadow    : 0px 0px 5px 2px rgba(0,0,0,0.10);
+	box-shadow         : 0px 0px 5px 2px rgba(0,0,0,0.10);
+
+	-webkit-transition : 0.4s ease-in-out;
+	-moz-transition    : 0.4s ease-in-out;
+	-o-transition      : 0.4s ease-in-out;
+	transition         : 0.4s ease-in-out;
+}	
+		
+label.switch:hover{	
+	-webkit-box-shadow : 0px 0px 5px 2px rgba(0,0,0,0.40);
+	-moz-box-shadow    : 0px 0px 5px 2px rgba(0,0,0,0.40);
+	box-shadow         : 0px 0px 5px 2px rgba(0,0,0,0.40);	
+}
+	
+label.switch input[type=checkbox]{
+	display : none;
+}		
+	
+label.switch .on,
+label.switch .off{
+	display            : inline-block;
+	padding            : 2px 0px 2px 0px;
+	/*font-size        : 16px;	*/
+	-webkit-transition : 0.4s ease-in-out;
+	-moz-transition    : 0.4s ease-in-out;
+	-o-transition      : 0.4s ease-in-out;
+	transition         : 0.4s ease-in-out;
+	text-align         : center;
+	color              : white;
+	font-weight        : lighter;
+}	
+label.switch .on{	
+	width             : 100%;
+	
+	background-color  : #18bc9c;
+	border-radius      : 4px;
+	border             : 1px solid #18bc9c;
+	transform         : translate(-100%); 
+	-moz-transform    : translate(-100%); 
+	-webkit-transform : translate(-100%); 
+	-o-transform      : translate(-100%);
+	-ms-transform     : translate(-100%); 
+	position: absolute;
+}			
+label.switch .off{	
+	width 			  : 100%;
+	background-color  : #95a5a6;
+	border-radius     : 4px;
+	border            : 1px solid #95a5a6;
+	transform         : translate(100%); 
+	-moz-transform    : translate(100%); 
+	-webkit-transform : translate(100%); 
+	-o-transform      : translate(100%); 
+	-ms-transform     : translate(100%); 
+	
+}
+
+label.switch input[type=checkbox]:checked  + .on{
+	
+	transform:         translate(0px); 
+	-moz-transform:    translate(0px); 
+	-webkit-transform: translate(0px); 
+	-o-transform:      translate(0px); 
+	-ms-transform:     translate(0px); 
+	
+}	
+	
+label.switch input[type=checkbox]:not(:checked) ~ .off{
+	
+	transform:         translate(0px); 
+	-moz-transform:    translate(0px); 
+	-webkit-transform: translate(0px); 
+	-o-transform:      translate(0px); 	
+	-ms-transform:     translate(0px);
+}	
+
+label.switch input[type=checkbox]:checked:disabled  + .on,
+label.switch input[type=checkbox]:not(:checked):disabled  ~ .off{
+	background-color: #b2b2b2;	
+}

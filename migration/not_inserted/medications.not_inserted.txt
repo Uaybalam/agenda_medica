@@ -1,0 +1,10 @@
+Row[29]:: Encounter ID not found 176
+Row[81]:: Encounter ID not found 251
+Row[140]:: Encounter ID not found 309
+Row[198]:: Encounter ID not found 349
+Row[199]:: Encounter ID not found 349
+Row[3853]:: Encounter ID not found 5611
+Row[3854]:: Encounter ID not found 5611
+Row[20284]:: Encounter ID not found 17760
+Row[20285]:: Encounter ID not found 17760
+Row[20286]:: Encounter ID not found 17760

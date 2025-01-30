@@ -1,0 +1,8 @@
+ERROR - 2024-03-09 10:35:19 --> Severity: error --> Exception: syntax error, unexpected variable "$detail" /var/www/html/app/controllers/API_Request_Controller.php 34 requestUrl[/setAppointment]
+ERROR - 2024-03-09 12:01:02 --> Severity: error --> Exception: Attempt to assign property "code" on null /var/www/html/app/controllers/API_Request_Controller.php 64 requestUrl[/setAppointment]
+ERROR - 2024-03-09 13:08:45 --> Severity: Warning --> Undefined array key 0 /var/www/html/app/models/Appointment_Model.php 145 requestUrl[/appointment/pdf/13]
+ERROR - 2024-03-09 13:08:45 --> Severity: Warning --> Trying to access array offset on value of type null /var/www/html/app/models/Appointment_Model.php 145 requestUrl[/appointment/pdf/13]
+ERROR - 2024-03-09 13:08:45 --> Severity: 8192 --> utf8_decode(): Passing null to parameter #1 ($string) of type string is deprecated /var/www/html/app/libraries/print/PDF_Appointment.php 71 requestUrl[/appointment/pdf/13]
+ERROR - 2024-03-09 13:08:45 --> Severity: error --> Exception: FPDF error: Some data has already been output, can't send PDF file /var/www/html/app/libraries/print/pdf/FPDF.php 267 requestUrl[/appointment/pdf/13]
+ERROR - 2024-03-09 13:12:30 --> Severity: Warning --> Undefined property: stdClass::$password /var/www/html/app/controllers/API_Request_Controller.php 85 requestUrl[/setAppointment]
+ERROR - 2024-03-09 13:13:03 --> Severity: Warning --> Undefined property: stdClass::$password /var/www/html/app/controllers/API_Request_Controller.php 85 requestUrl[/setAppointment]

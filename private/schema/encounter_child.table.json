@@ -1,0 +1,224 @@
+{"encounter_child":[
+	{
+		"type":"int",
+		"constraint":11,
+		"unsigned":true,
+		"auto_increment":true,
+		"primary":true,
+		"name":"id"
+	},{
+		"name":"patient_months",
+		"type":"smallint(2)",
+		"default":0
+	},{
+		"name":"encounter_id",
+		"type":"int",
+		"constraint":8,
+		"_createindex":true,
+		"default":0	
+	},{
+		"name":"ethnic_code",
+		"type":"smallint(2)",
+		"default":0
+	},{
+		"name":"type_of_screen",
+		"type":"varchar(25)",
+		"default":""
+	},{
+		"name":"treatment",
+		"type":"varchar(256)",
+		"default":""
+	},{
+		"name":"assessment",
+		"type":"varchar(256)",
+		"default":""
+	},{
+		"name":"tb_risk",
+		"type":"enum('','Yes','No')",
+		"default":""
+	},{
+		"name":"lead_risk",
+		"type":"enum('','Yes','No')",
+		"default":""
+	},{
+		"name":"interval_history_diet",
+		"type":"varchar(128)",
+		"default":""
+	},{
+		"name":"interval_history_illness",
+		"type":"varchar(128)",
+		"default":""
+	},{
+		"name":"interval_history_problems",
+		"type":"varchar(128)",
+		"default":""
+	},{
+		"name":"interval_history_immunization",
+		"type":"varchar(128)",
+		"default":""
+	},{
+		"name":"interval_history_parental_concerns",
+		"type":"varchar(128)",
+		"default":""
+	},{
+		"name":"development_result",
+		"type":"enum('','Normal','Abnormal')",
+		"default":""
+	},{
+		"name":"development_options",
+		"type":"text",
+		"null": true
+	},{
+		"name":"development_plan",
+		"type":"text",
+		"null": true
+	},{
+		"name":"pm_160",
+		"type":"enum('','Yes','No')",
+		"default":""
+	},{
+		"name":"referred_to_wic",
+		"type":"enum('','Yes','No')",
+		"default":""
+	},{
+		"name":"enrolled_in_wic",
+		"type":"enum('','Yes','No')",
+		"default":""
+	},{	
+		"name" : "physical_comments_general_appearance",
+		"type" : "varchar(256)",
+		"default" : ""
+	},{	
+		"name" : "physical_comments_nutrition",
+		"type" : "varchar(256)",
+		"default" : ""
+	},{	
+		"name" : "physical_comments_skin",
+		"type" : "varchar(256)",
+		"default" : ""
+	},{	
+		"name" : "physical_comments_head_neck_nodes",
+		"type" : "varchar(256)",
+		"default" : ""
+	},{	
+		"name" : "physical_comments_eyes_eq_reflex",
+		"type" : "varchar(256)",
+		"default" : ""
+	},{	
+		"name" : "physical_comments_ent_hearing",
+		"type" : "varchar(256)",
+		"default" : ""
+	},{	
+		"name" : "physical_comments_mouth_dental",
+		"type" : "varchar(256)",
+		"default" : ""
+	},{	
+		"name" : "physical_comments_chest_lungs",
+		"type" : "varchar(256)",
+		"default" : ""
+	},{	
+		"name" : "physical_comments_heart",
+		"type" : "varchar(256)",
+		"default" : ""
+	},{	
+		"name" : "physical_comments_abdomen",
+		"type" : "varchar(256)",
+		"default" : ""
+	},{	
+		"name" : "physical_comments_external_genitalia",
+		"type" : "varchar(256)",
+		"default" : ""
+	},{	
+		"name" : "physical_comments_back",
+		"type" : "varchar(256)",
+		"default" : ""
+	},{	
+		"name" : "physical_comments_extremities_hips",
+		"type" : "varchar(256)",
+		"default" : ""
+	},{	
+		"name" : "physical_comments_neurological",
+		"type" : "varchar(256)",
+		"default" : ""
+	},{	
+		"name" : "physical_comments_fem_pulses",
+		"type" : "varchar(256)",
+		"default" : ""
+	},{	
+		"name" : "physical_result_general_appearance",
+		"type" : "enum('','N','AB')",
+		"default" : ""
+	},{	
+		"name" : "physical_result_nutrition",
+		"type" : "enum('','N','AB')",
+		"default" : ""
+	},{	
+		"name" : "physical_result_skin",
+		"type" : "enum('','N','AB')",
+		"default" : ""
+	},{	
+		"name" : "physical_result_head_neck_nodes",
+		"type" : "enum('','N','AB')",
+		"default" : ""
+	},{	
+		"name" : "physical_result_eyes_eq_reflex",
+		"type" : "enum('','N','AB')",
+		"default" : ""
+	},{	
+		"name" : "physical_result_ent_hearing",
+		"type" : "enum('','N','AB')",
+		"default" : ""
+	},{	
+		"name" : "physical_result_mouth_dental",
+		"type" : "enum('','N','AB')",
+		"default" : ""
+	},{	
+		"name" : "physical_result_chest_lungs",
+		"type" : "enum('','N','AB')",
+		"default" : ""
+	},{	
+		"name" : "physical_result_heart",
+		"type" : "enum('','N','AB')",
+		"default" : ""
+	},{	
+		"name" : "physical_result_abdomen",
+		"type" : "enum('','N','AB')",
+		"default" : ""
+	},{	
+		"name" : "physical_result_external_genitalia",
+		"type" : "enum('','N','AB')",
+		"default" : ""
+	},{	
+		"name" : "physical_result_back",
+		"type" : "enum('','N','AB')",
+		"default" : ""
+	},{	
+		"name" : "physical_result_extremities_hips",
+		"type" : "enum('','N','AB')",
+		"default" : ""
+	},{	
+		"name" : "physical_result_neurological",
+		"type" : "enum('','N','AB')",
+		"default" : ""
+	},{	
+		"name" : "physical_result_fem_pulses",
+		"type" : "enum('','N','AB')",
+		"default" : ""
+	},{
+		"name" : "tobacco_patient_exposed",
+		"type" : "enum('','Yes','No')",
+		"default" : ""
+	},{
+		"name" : "tobacco_used_by_patient",
+		"type" : "enum('','Yes','No')",
+		"default" : ""
+	},{
+		"name" : "tobacco_prevention_referred",
+		"type" : "enum('','Yes','No')",
+		"default" : ""
+	},{
+		"name" : "educations",
+		"type" : "text",
+		"null" : true
+	}
+]}

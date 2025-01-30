@@ -1,0 +1,160 @@
+Plan Medicare: YES
+Plan Medicaid: 
+Plan Tricare: 
+Plan ChampVA: 
+Plan Group Health Plan: 
+Plan FECA: 
+Plan Other: 
+Insurance ID number: 32432432
+Patiente Name: TEST, TEST, TEST
+Patiente birth date: 12/07/1992
+Patiente Sex: Male
+Insured name: 
+Patient address: vallarta 750
+Patient Relation SELF: YES
+Patient Relation SPOUSE: 
+Patient Relation CHILD: 
+Patient Relation OTHER: 
+Insured address: 
+Patiente city: Puerto Vallarta
+Patiente state: Jal.
+Insured city: 
+Insured state: 
+Patient zipcode: 48314
+Patient Telephone: 324 3243242
+Insurence zipcode: 
+Insurence Telephone: 
+Other insured's name: 
+Is patiente's condition related to employment : No
+Is patiente's condition related to auto accident: No
+Auto accident place: 
+Is patiente's condition related to other accident: No
+Insured's policy group: 
+Other insured's policy: 
+Insured's date of birth: 
+Insured's sex: Male
+Other Claim ID: 
+Insurance plan name: terster insurance
+Claim Codes: 
+Is there another Health benefit plan: No
+Date of current illness, injury or pregnancy: 2023-12-20 12:44:55
+Other Date: 
+Dates Patiente unable to work From: 
+Dates Patiente unable to work To: 
+Name of reffering provider or other source: 
+Name of reffering provider or other NIP: 
+Hospitalization dates related to current services from: 
+Hospitalization dates related to current services to: 
+Aditional Claim information: 
+Outside Lab: No
+Outside Lab charges: 0
+Diagnosis Illness a: 
+Diagnosis Illness b: 
+Diagnosis Illness c: 
+Diagnosis Illness d: 
+Diagnosis Illness e: 
+Diagnosis Illness f: 
+Diagnosis Illness g: 
+Diagnosis Illness h: 
+Diagnosis Illness i: 
+Diagnosis Illness j: 
+Diagnosis Illness k: 
+Diagnosis Illness l: 
+Resubmission code: 
+Original ref no: 
+Prica Authorization Number: 
+Service 1 procedure cpt hcpcs: 
+Service 1 place of service: 
+Service 1 emg: 
+Service 1 modifier a: 
+Service 1 modifier b: 
+Service 1 modifier c: 
+Service 1 modifier d: 
+Service 1 diagnosis pointer: 
+Service 1 charges: 0.00
+Service 1 days units: 
+Service 1 family plan: 
+Service 1 id qual: 
+Service 1 rendering provider id: 
+Service 1 date of service: 
+Service 2 procedure cpt hcpcs: 
+Service 2 place of service: 
+Service 2 emg: 
+Service 2 modifier a: 
+Service 2 modifier b: 
+Service 2 modifier c: 
+Service 2 modifier d: 
+Service 2 diagnosis pointer: 
+Service 2 charges: 0.00
+Service 2 days units: 
+Service 2 family plan: 
+Service 2 id qual: 
+Service 2 rendering provider id: 
+Service 2 date of service: 
+Service 3 procedure cpt hcpcs: 
+Service 3 place of service: 
+Service 3 emg: 
+Service 3 modifier a: 
+Service 3 modifier b: 
+Service 3 modifier c: 
+Service 3 modifier d: 
+Service 3 diagnosis pointer: 
+Service 3 charges: 0.00
+Service 3 days units: 
+Service 3 family plan: 
+Service 3 id qual: 
+Service 3 rendering provider id: 
+Service 3 date of service: 
+Service 4 procedure cpt hcpcs: 
+Service 4 place of service: 
+Service 4 emg: 
+Service 4 modifier a: 
+Service 4 modifier b: 
+Service 4 modifier c: 
+Service 4 modifier d: 
+Service 4 diagnosis pointer: 
+Service 4 charges: 0.00
+Service 4 days units: 
+Service 4 family plan: 
+Service 4 id qual: 
+Service 4 rendering provider id: 
+Service 4 date of service: 
+Service 5 procedure cpt hcpcs: 
+Service 5 place of service: 
+Service 5 emg: 
+Service 5 modifier a: 
+Service 5 modifier b: 
+Service 5 modifier c: 
+Service 5 modifier d: 
+Service 5 diagnosis pointer: 
+Service 5 charges: 0.00
+Service 5 days units: 
+Service 5 family plan: 
+Service 5 id qual: 
+Service 5 rendering provider id: 
+Service 5 date of service: 
+Service 6 procedure cpt hcpcs: 
+Service 6 place of service: 
+Service 6 emg: 
+Service 6 modifier a: 
+Service 6 modifier b: 
+Service 6 modifier c: 
+Service 6 modifier d: 
+Service 6 diagnosis pointer: 
+Service 6 charges: 0.00
+Service 6 days units: 
+Service 6 family plan: 
+Service 6 id qual: 
+Service 6 rendering provider id: 
+Service 6 date of service: 
+Federal Tax ID Number: 987654321 EIN
+Patiente Account No: 1 3
+Accept Assigned?: Yes
+Total charge 0.00
+Amount paid: 0
+Signature of Physician:
+Signature on file: 01/13/2024
+Service facility Location information:  TEST, , 
+Billing provider info & ph:  
+
+

@@ -1,0 +1,29 @@
+{"location":[
+	{
+		"type":"int",
+		"unsigned":true,
+		"auto_increment":true,
+		"primary":true,
+		"name":"id"
+	},{
+		"name":"city",
+		"default":"",
+		"type":"varchar(150)"
+	},{
+		"name":"state_short",
+		"default":"",
+		"type":"varchar(75)"
+	},{
+		"name":"state_full",
+		"default":"",
+		"type":"varchar(150)"
+	},{
+		"name":"county",
+		"default":"",
+		"type":"varchar(150)"
+	},{
+		"name":"zipcode",
+		"default":"",
+		"type":"char(20)"
+	}
+]}

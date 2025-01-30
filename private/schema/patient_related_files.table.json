@@ -1,0 +1,14 @@
+{"patient_related_files":[
+	{"type":"int","unsigned":true,"auto_increment":true,"primary":true,"name":"id"},
+	{"type":"int","default":null,"name":"encounter_id","_createindex" : true, "null" : true},
+	{"type":"int","default":0,"name":"patient_id","_createindex" : true},
+	{"type":"int","default":0,"name":"user_id_created","_createindex" : true},
+	{"type":"varchar(250)","default":"","name":"title"},
+	{"type":"varchar(75)","default":"","name":"type"},
+	{"type":"smallint(1)","default":0, "name":"document_for_done"},
+	{"type":"datetime","default":null,"null":true,"name":"done_date"},
+	{"type":"varchar(120)","default":"","name":"done_nick_name"},
+	{"type":"varchar(120)","default":"","name":"file_name"},
+	{"type":"datetime","null":false,"default":"0000-00-00","name":"create_at"},
+	{"type":"datetime","null":false,"default":"0000-00-00","name":"update_at"}
+]}

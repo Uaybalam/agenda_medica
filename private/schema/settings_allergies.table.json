@@ -1,0 +1,1 @@
+{"settings_allergies":[{"type":"int","constraint":11,"unsigned":true,"auto_increment":true,"primary":true,"name":"id"},{"type":"varchar(100)","default":"","name":"title"}]}

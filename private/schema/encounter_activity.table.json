@@ -1,0 +1,32 @@
+{"encounter_activity":[{
+	"type":"bigint",
+	"constraint":20,
+	"unsigned":true,
+	"auto_increment":true,
+	"primary":true,
+	"name":"id"
+},{
+	"type":"int",
+	"constraint":8,
+	"_createindex":true,
+	"default":0,
+	"name":"encounter_id"
+},{
+	"type":"int",
+	"constraint":8,
+	"_createindex":true,
+	"default":0,
+	"name":"user_id"
+},{
+	"type":"datetime",
+	"default":"0000-00-00",
+	"name":"date_create"
+},{
+	"type":"datetime",
+	"default":"0000-00-00",
+	"name":"date_last_update"
+},{
+	"type":"varchar(100)",
+	"default":"",
+	"name":"comments"
+}]}

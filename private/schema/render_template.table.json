@@ -1,0 +1,34 @@
+{"render_template":[
+		{
+			"type":"bigint(0)",
+			"unsigned":true,
+			"auto_increment":true,
+			"primary":true,
+			"name":"id"
+		},{
+			"name":"date",
+			"null":false,
+			"type":"datetime"
+		},{
+			"name":"controller",
+			"default":"",
+			"type":"varchar(100)"
+		},{
+			"name":"action",
+			"default":"",
+			"type":"varchar(100)"
+		},{
+			"name":"time",
+			"default":0,
+			"type":"decimal(10,4)"
+		},{
+			"name":"memory_mb",
+			"default":0,
+			"type":"decimal(10,2)"
+		},{
+			"name":"params",
+			"default":"",
+			"type":"varchar(250)"
+		}
+	]
+}

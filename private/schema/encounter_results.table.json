@@ -1,0 +1,95 @@
+{"encounter_results":[
+	{
+		"type":"bigint",
+		"constraint":11,
+		"unsigned":true,
+		"auto_increment":true,
+		"primary":true,
+		"name":"id"
+	},{
+		"type":"int",
+		"constraint":8,
+		"_createindex":true,
+		"default":0,
+		"name":"patient_id",
+		"null": false
+	},{
+		"type":"int",
+		"constraint":8,
+		"_createindex":true,
+		"default":0,
+		"name":"encounter_id",
+		"null": false
+	},{
+		"type":"int",
+		"constraint":8,
+		"_createindex":true,
+		"default":0,
+		"name":"checked_out_id",
+		"null": false
+	},{
+		"name":"type_result",
+		"type":"char(20)",
+		"default":""
+	},{
+		"name":"title",
+		"type":"varchar(250)",
+		"default":""
+	},{
+		"name":"title_document",
+		"type":"varchar(250)",
+		"default":""
+	},{
+		"name":"comments",
+		"type":"text",
+		"null":true
+	},{
+		"name":"status",
+		"type":"smallint(1)",
+		"default":0
+	},{
+		"name":"file_name",
+		"type":"varchar(150)",
+		"default":""
+	},{
+		"name":"recive_date",
+		"type":"datetime",
+		"default":null
+	},{
+		"name":"recive_nickname",
+		"type":"varchar(75)",
+		"default":""
+	},{
+		"name":"done_date",
+		"type":"datetime",
+		"default":null
+	},{
+		"name":"done_nickname",
+		"type":"varchar(75)",
+		"default":""
+	},{
+		"name":"refused_date",
+		"type":"datetime",
+		"default":null
+	},{
+		"name":"refused_nickname",
+		"type":"varchar(75)",
+		"default":""
+	},{
+		"name": "refused_reason",
+		"type": "text",
+		"default": null
+	},{
+		"name": "doc_on_file_reason",
+		"type": "text",
+		"default": null
+	},{
+		"name": "doc_on_file_date",
+		"type": "datetime",
+		"default": null
+	},{
+		"name": "doc_on_file_nickname",
+		"type": "varchar(120)",
+		"default": ""
+	}
+]}

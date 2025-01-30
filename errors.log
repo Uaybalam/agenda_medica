@@ -1,0 +1,2 @@
+
+[Wed Jul 29 00:23:16.052169 2020] [php7:error] [pid 58741] [client 192.168.10.208:57680] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /var/www/ont.palmasmed.com/system/libraries/Session/drivers/Session_files_driver.php on line 420, referer: https://ont.palmasmed.com/appointment/book

@@ -1,0 +1,130 @@
+{"encounter_referrals":[{
+		"type":"int",
+		"constraint":8,
+		"unsigned":true,
+		"auto_increment":true,
+		"primary":true,
+		"name":"id"
+	},{
+		"type":"int",
+		"constraint":11,
+		"_createindex":true,
+		"default":0,
+		"name":"encounter_id"
+	},{
+		"type":"int",
+		"constraint":11,
+		"_createindex":true,
+		"default":0,
+		"name":"patient_id"
+	},{
+		"type":"varchar(120)",
+		"default":"",
+		"name":"speciality"
+	},{
+		"type":"varchar(120)",
+		"default":"",
+		"name":"service"
+	},{
+		"type":"text",
+		"null":true,
+		"name":"comments"
+	},{
+		"type":"smallint(1)",
+		"default":0,
+		"name":"status"
+	},{
+		"type":"varchar(120)",
+		"default":"",
+		"name":"acuity"
+	},{
+		"type":"varchar(120)",
+		"default":"",
+		"name":"webticket"
+	},{
+		"type":"varchar(250)",
+		"default":"",
+		"name":"diagnosis"
+	},{
+		"type":"varchar(75)",
+		"default":"",
+		"name":"date_ipa_sent"
+	},{
+		"type":"varchar(75)",
+		"default":"",
+		"name":"date_ipa_recived"
+	},{
+		"type":"varchar(75)",
+		"default":"",
+		"name":"date_requested"
+	},{
+		"type":"varchar(75)",
+		"default":"",
+		"name":"date_patient_notify"
+	},{
+		"type":"varchar(75)",
+		"default":"",
+		"name":"date_follow_up_appt"
+	},{
+		"type":"varchar(75)",
+		"default":"",
+		"name":"date_specialist_appt"
+	},{
+		"type":"varchar(75)",
+		"default":"",
+		"name":"date_consultation_report"
+	},{
+		"type":"text",
+		"null":true,
+		"name":"requested_provider"
+	},{
+		"type":"text",
+		"null":true,
+		"name":"comments_completed"
+	},{
+		"type":"text",
+		"null":true,
+		"name":"reason"
+	},{
+		"type": "varchar(10)",
+		"default":"",
+		"name":"refer_date"
+	},{
+		"type": "varchar(120)",
+		"default":"",
+		"name":"print_icd_code"
+	},{
+		"type": "text",
+		"default":null,
+		"null": true,
+		"name":"print_extra_diagnosis"
+	},{
+		"type": "text",
+		"default": null,
+		"null": true,
+		"name": "print_services_requested"
+	},{
+		"type": "datetime",
+		"default": null,
+		"null": true,
+		"name": "print_date"
+	},{
+		"type": "varchar(75)",
+		"default": "",
+		"name": "print_user"
+	},{
+		"type":"datetime",
+		"null":true,
+		"name":"created_at",
+		"default": null
+	},{
+		"type":"varchar(120)",
+		"null":true,
+		"name":"user_created_nickname",
+		"default": ""
+	},{
+		"type":"varchar(120)",
+		"name":"insurance",
+		"default": ""
+	}
+]}

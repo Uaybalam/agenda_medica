@@ -1,0 +1,1 @@
+{"settings_specialities":[{"type":"int","constraint":4,"unsigned":true,"auto_increment":true,"primary":true,"name":"id"},{"type":"varchar(120)","default":"","name":"title"}]}

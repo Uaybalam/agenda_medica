@@ -1,0 +1,9 @@
+{"patient_communication":[
+	{"type":"int","constraint":11,"unsigned":true,"auto_increment":true,"primary":true,"name":"id"},
+	{"type":"int","constraint":11,"_createindex":true,"default":0,"name":"patient_id"},
+	{"type":"int","constraint":11,"_createindex":true,"default":0,"name":"appointment_id"},
+	{"type":"int","constraint":11,"_createindex":true,"default":0,"name":"patient_contact_id"},
+	{"type":"varchar(120)","default":"","name":"created_by_user"},
+	{"type":"smallint(1)","default":0,"name":"type"},
+	{"type":"text","null":false,"name":"notes"},
+	{"type":"datetime","default":"0000-00-00","name":"create_at"}]}

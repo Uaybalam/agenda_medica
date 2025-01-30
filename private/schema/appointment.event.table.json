@@ -1,0 +1,33 @@
+{"appointment_event":[
+	{	
+		"type":"bigint",
+		"constraint":20,
+		"_createindex":true,
+		"auto_increment":true,
+		"primary":true,
+		"name":"id"
+	},{
+		"type":"int",
+		"constraint":8,
+		"_createindex":true,
+		"default":0,
+		"name":"appointment_id"
+	},{
+		"name":"user",
+		"type":"varchar(80)",
+		"_createindex":true,
+		"default":""
+	},{
+		"type":"datetime",
+		"default":"0000-00-00",
+		"name":"date"
+	},{
+		"name":"event",
+		"type":"varchar(75)",
+		"default":""
+	},{
+		"name":"notes",
+		"type":"text",
+		"default":""
+	}
+]}

@@ -1,0 +1,12 @@
+{"settings_how_found_us":[{
+		"type":"int",
+		"unsigned":true,
+		"auto_increment":true,
+		"primary":true,
+		"name":"id"
+	},{
+		"type":"varchar(50)",
+		"default":"",
+		"name":"title"
+	}
+]}

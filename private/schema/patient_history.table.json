@@ -1,0 +1,9 @@
+{"patient_history":[
+	{"type":"bigint","constraint":20,"unsigned":true,"auto_increment":true,"primary":true,"name":"id"},
+	{"type":"int","_createindex":true,"default":0,"name":"patient_id"},
+	{"type":"enum(\"left\",\"middle\",\"right\")","name":"position"},
+	{"type":"varchar(120)","default":"","name":"group_history"},
+	{"type":"varchar(1024)","default":"","name":"comments"},
+	{"type":"varchar(120)","default":"","name":"title"},
+	{"type":"enum(\"\",\"Yes\",\"No\")","default":"","name":"family"},
+	{"type":"enum(\"\",\"Yes\",\"No\")","default":"","name":"patient"}]}
